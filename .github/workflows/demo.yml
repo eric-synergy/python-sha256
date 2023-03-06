@@ -1,16 +1,16 @@
-name: pyinstaller
-on: workflow_dispatch
+# name: pyinstaller
+# on: workflow_dispatch
 
-jobs:
-  build-in-env:
-    runs-on: ubuntu-latest
-    steps: 
-      - name: checkout code
-        uses: actions/checkout@v3
-      - name: show ENV 
-        run: env
-      - name: print env
-        run: echo $GITHUB_REPOSITORY
+# jobs:
+  # build-in-env:
+  #   runs-on: ubuntu-latest
+  #   steps: 
+  #     - name: checkout code
+  #       uses: actions/checkout@v3
+  #     - name: show ENV 
+  #       run: env
+  #     - name: print env
+  #       run: echo $GITHUB_REPOSITORY
   # build-on-windows:
   #   runs-on: windows-2022
   #   steps: 
