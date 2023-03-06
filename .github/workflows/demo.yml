@@ -1,7 +1,12 @@
 name: pyinstaller
 on: workflow_dispatch
 
-# jobs:
+jobs:
+  build-in-env:
+    runs-on ubuntu-latest
+    steps:
+      - name: test
+        run: echo "Hello"
   # build-in-env:
   #   runs-on: ubuntu-latest
   #   steps: 
